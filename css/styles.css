@@ -662,10 +662,19 @@ margin-bottom: 16px;
 }
 
 .form-subscribe {
-    display: flex;
+   
     margin-top: 100px;
     margin-left: 80px;
     gap: 24px;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+   
+    
 }
 
 .label-subscribe {
@@ -681,9 +690,7 @@ color: var(--background-main);
 }
 
 .input-subscribe {
-    margin-top: 16px;
-    padding-left: 16px;
-    
+   
     width: 264px;
     height: 40px;
 
@@ -697,8 +704,6 @@ color: var(--background-main);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 background: transparent;
-
-
 
 }
 
@@ -745,6 +750,7 @@ border: none;
     position: absolute;
     bottom: 8px;
     right: 24px;
+    margin-left: 16px;
 
     transition: fill;
     transition-duration: 250ms;
