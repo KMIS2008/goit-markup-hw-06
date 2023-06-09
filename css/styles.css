@@ -684,7 +684,7 @@ color: var(--background-main);
     margin-top: 16px;
     padding-left: 16px;
     
-    width: 264px
+    width: 264px;
     height: 40px;
 
     font-size: 12px;
@@ -714,14 +714,10 @@ letter-spacing: 0.04em;
 color: var(--background-main);
 }
 
-.form-btn-subscribe {
-    display: flex;
-  align-items: flex-end;
-    position: relative;
-}
+
 
 .button-subscribe {
-width: 165px;
+min-width: 165px; 
 height: 40px;
 
 padding-left: 24px;
@@ -731,6 +727,7 @@ font-size: 16px;
 line-height: 1.5;
 
 display: flex;
+justify-content: center;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
@@ -739,6 +736,9 @@ color: #FFFFFF;
 
 background: #4D5AE5;
 border-radius: 4px;
+
+cursor: pointer;
+border: none; 
 }
 
 .svg-subscribe {
