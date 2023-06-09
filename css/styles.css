@@ -682,15 +682,23 @@ color: var(--background-main);
 
 .input-subscribe {
     margin-top: 16px;
-    width: 100%;
+    padding-left: 16px;
+    
+    width: 264px
     height: 40px;
+
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em; 
+    color: #ffffff;
     
     border: 1px solid #FFFFFF;
+
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 background: transparent;
 
-padding-left: 16px;
+
 
 }
 
