@@ -1011,6 +1011,8 @@ margin-bottom: 8px;
 }
 
 .label {
+display: block;
+margin-bottom: 4px; 
 font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -1050,12 +1052,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
 
     transition: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    outline: none;
+    outline: transparent;
 }
 
 .modal-textarea {
