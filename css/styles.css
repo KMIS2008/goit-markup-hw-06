@@ -747,9 +747,7 @@ border: none;
 }
 
 .svg-subscribe {
-    position: absolute;
-    bottom: 8px;
-    right: 24px;
+   
     margin-left: 16px;
 
     transition: fill;
@@ -757,7 +755,7 @@ border: none;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-subscribe:focus + .svg-subscribe {
+.button-subscribe:focus > .svg-subscribe {
   fill: #FFFFFF;  
 }
 
